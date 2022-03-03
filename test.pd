@@ -1,0 +1,8 @@
+#N canvas 247 428 715 428 12;
+#X obj 88 37 inlet;
+#X obj 85 196 outlet;
+#X msg 92 107 dog;
+#X obj 92 131 list append \$1;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
