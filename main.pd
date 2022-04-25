@@ -1,0 +1,5 @@
+#N canvas -8 -8 1920 997 12;
+#X obj 42 39 granny;
+#X obj 41 250 dac~;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
